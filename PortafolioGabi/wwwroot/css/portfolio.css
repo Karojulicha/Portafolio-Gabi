@@ -532,7 +532,8 @@ a { color: inherit; }
 
     .hero-grid { grid-template-columns: 1fr; text-align: center; }
     .hero-copy { order: 2; }
-    .hero-art { order: 1; max-width: 360px; margin: 0 auto; }
+    .hero-art { order: 1; width: 100%; max-width: 460px; height: auto; margin: 0 auto; }
+    .hero-art img { height: auto; object-fit: contain; }
     .hero-text { margin-inline: auto; }
     .hero-doodles { justify-content: center; }
 
