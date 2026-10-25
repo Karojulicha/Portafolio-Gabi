@@ -1,0 +1,28 @@
+COMO AGREGAR TUS OBRAS
+======================
+
+1. Guarda aqui la imagen de cada obra (formato .jpg, .png o .webp).
+   Sugerencia de nombres:
+     01-gatitos.jpg
+     02-venecia.jpg
+     03-...jpg   (y asi hasta la obra 7)
+
+2. Abre el archivo:  wwwroot/data/artworks.json
+
+3. En cada obra escribe la ruta de su imagen en el campo "imagen", por ejemplo:
+     "imagen": "/images/artworks/01-gatitos.jpg"
+   y cambia  "esPlaceholder": true  por  "esPlaceholder": false
+
+4. Si una obra aun no tiene imagen, dejala con "imagen": null  y
+   "esPlaceholder": true  —  se mostrara un marcador temporal.
+
+Recomendado: imagenes de proporcion vertical (por ejemplo 1000 x 1250 px)
+para que se vean bien dentro de las tarjetas de la galeria.
+
+CONTACTO
+========
+En el mismo archivo artworks.json, dentro de "contacto":
+  - "whatsapp": tu numero en formato internacional SIN el signo +, ej. "573001234567"
+  - "instagram": tu usuario sin la @, ej. "pequenosgrandesdisenos"
+  - "email": tu correo
+Lo que dejes vacio simplemente no aparecera.

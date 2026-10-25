@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] · Pequeños Grandes Diseños</title>
+    <meta name="description" content="Ilustraciones y diseños artísticos originales, hechos con imaginación y mucho amor." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/portfolio.css" asp-append-version="true" />
+</head>
+<body>
+    <a class="skip-link" href="#galeria">Saltar a la galería</a>
+
+    <header class="site-header" id="inicio">
+        <nav class="nav container" aria-label="Navegación principal">
+            <a class="brand" href="#inicio">
+                <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" width="34" height="34" role="img">
+                        <path d="M24 5C13.5 5 5 12.6 5 22c0 8 6.3 13 12.5 13 2.3 0 3.5-1.5 3.5-3.2 0-1-.5-1.7-1.1-2.4-.6-.7-1.1-1.4-1.1-2.4 0-1.7 1.4-3 3.2-3H26c6.1 0 11-4.4 11-10.3C37 8.9 31 5 24 5Z" fill="#F6D5D3" stroke="#E98C85" stroke-width="1.4"/>
+                        <circle cx="14" cy="20" r="2.4" fill="#E98C85"/>
+                        <circle cx="19.5" cy="13.5" r="2.4" fill="#F7D98B"/>
+                        <circle cx="27.5" cy="12.5" r="2.4" fill="#7895AD"/>
+                        <circle cx="32.5" cy="18" r="2.4" fill="#B9C9B0"/>
+                    </svg>
+                </span>
+                <span class="brand-name">Pequeños Grandes Diseños</span>
+            </a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        @RenderBody()
+    </main>
+
+    @RenderSection("Footer", required: false)
+
+    <script src="~/js/portfolio.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

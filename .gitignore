@@ -1,0 +1,11 @@
+# Compilados y salida de .NET
+bin/
+obj/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+
+# Archivos de entorno
+*.env

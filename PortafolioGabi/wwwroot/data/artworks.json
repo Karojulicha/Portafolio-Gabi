@@ -1,0 +1,100 @@
+{
+  "_instrucciones": [
+    "Este archivo controla las obras y el contacto del portafolio. Edítalo con cuidado respetando las comas y comillas.",
+    "Para agregar la imagen real de una obra: deja el archivo en wwwroot/images/artworks/ y escribe su ruta en 'imagen', p. ej. '/images/artworks/01-gatitos.jpg'. Luego pon 'esPlaceholder': false.",
+    "Si una obra no tiene precio, deja 'precio': null y no se mostrará ningún precio.",
+    "Contacto: escribe tu numero de WhatsApp en formato internacional SIN el signo +, p. ej. '573001234567'. Si lo dejas vacio, el boton usara el correo o Instagram."
+  ],
+  "contacto": {
+    "whatsapp": "573013780475",
+    "whatsappMensaje": "Hola ✨ Vengo de tu portafolio y me encantaria saber mas sobre tus disenos.",
+    "instagram": "",
+    "email": ""
+  },
+  "obras": [
+    {
+      "id": 1,
+      "nombre": "Gatitos abrazados",
+      "imagen": "/images/artworks/michis.jpeg",
+      "descripcion": "Dos gatitos abrazados entre mantas de colores cálidos. Ternura hecha color para rincones acogedores.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Pintura digital",
+      "disponible": true,
+      "esPlaceholder": false
+    },
+    {
+      "id": 2,
+      "nombre": "Venecia al atardecer",
+      "imagen": "/images/artworks/venecia.jpeg",
+      "descripcion": "Góndolas deslizándose por el Gran Canal mientras el cielo se tiñe de dorado sobre las cúpulas de Venecia.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Ilustración",
+      "disponible": true,
+      "esPlaceholder": false
+    },
+    {
+      "id": 3,
+      "nombre": "Atardecer en París",
+      "imagen": "/images/artworks/paris.jpeg",
+      "descripcion": "La Torre Eiffel y el río Sena bañados por la luz cálida del atardecer parisino.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Ilustración",
+      "disponible": true,
+      "esPlaceholder": false
+    },
+    {
+      "id": 4,
+      "nombre": "Cerezos en flor",
+      "imagen": "/images/artworks/cerezos.jpeg",
+      "descripcion": "Templos y un puente de madera entre cerezos rosados, con una montaña nevada asomando al fondo.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Paisaje",
+      "disponible": true,
+      "esPlaceholder": false
+    },
+    {
+      "id": 5,
+      "nombre": "Valle entre montañas",
+      "imagen": "/images/artworks/montanas.jpeg",
+      "descripcion": "Cumbres nevadas, bosques verdes y flores silvestres moradas en un valle lleno de primavera.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Paisaje",
+      "disponible": true,
+      "esPlaceholder": false
+    },
+    {
+      "id": 6,
+      "nombre": "Paseo por la Toscana",
+      "imagen": "/images/artworks/toscana.jpeg",
+      "descripcion": "Una pareja recorre en vespa un camino entre cipreses, con un pueblo y colinas doradas en el horizonte.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Ilustración",
+      "disponible": true,
+      "esPlaceholder": false
+    },
+    {
+      "id": 7,
+      "nombre": "Mujer en flor",
+      "imagen": "/images/artworks/mujer-flores.jpeg",
+      "descripcion": "Retrato surrealista de una mujer coronada por flores en tonos rosa; delicado, femenino y lleno de poesía.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Retrato",
+      "disponible": true,
+      "esPlaceholder": false
+    }
+  ]
+}
