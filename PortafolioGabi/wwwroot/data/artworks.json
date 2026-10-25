@@ -95,6 +95,18 @@
       "categoria": "Retrato",
       "disponible": true,
       "esPlaceholder": false
+    },
+    {
+      "id": 8,
+      "nombre": "Sagrado Corazón",
+      "imagen": "/images/artworks/jesus.jpeg",
+      "descripcion": "Retrato del Sagrado Corazón de Jesús en un estilo geométrico y colorido, con destellos dorados y tonos cálidos.",
+      "formato": "Lámina impresa · 40 × 50 cm",
+      "precio": null,
+      "moneda": "COP",
+      "categoria": "Arte religioso",
+      "disponible": true,
+      "esPlaceholder": false
     }
   ]
 }
